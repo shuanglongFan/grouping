@@ -19,6 +19,7 @@ cv_group <- function(k, label, seed)  # labels are coded with 0 or -1 and 1
     obs <- obs[order(obs)]
   })
 }
+
 #----------------------------------------------------------#
 #                       Hold-out test                      #
 #----------------------------------------------------------#
